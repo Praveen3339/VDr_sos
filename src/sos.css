@@ -1,9 +1,9 @@
 .div1 {
-  width: 220px;  /* Increased size */
-  height: 220px;  /* Increased size */
+  width: 180px;  /* Increased size */
+  height: 180px;  /* Increased size */
   position: absolute;
   top: 250px;  /* Adjusted to maintain center position */
-  left: 510px;  /* Adjusted to maintain center position */
+  left: 530px;  /* Adjusted to maintain center position */
   border-radius: 100%;
   animation: floatColor 2s infinite;  /* Increased frequency */
   z-index: 1;
@@ -42,8 +42,8 @@
 
 .div1_btn {
   border: none;
-  height: 120px;  /* Adjusted to fit new size */
-  width: 120px;  /* Adjusted to fit new size */
+  height: 100px;  /* Adjusted to fit new size */
+  width: 100px;  /* Adjusted to fit new size */
   border-radius: 100%;
   display: flex;
   justify-content: center;
@@ -60,22 +60,22 @@
 .div1-h2 {
   color: red;
   position: absolute;
-  top: 540px;
-  left: 500px;
+  top: 510px;
+  left: 490px;
   font-weight: 700;
   font-size: xx-large;
 }
 
 .stop_btn {
   position: absolute;
-  top: 520px;
+  top: 480px;
   left: 610px;
   background-color: red;
   border-radius: 100%;
   width: 40px;
   height: 40px;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
   z-index: 1;
   display: flex;
   justify-content: center;
