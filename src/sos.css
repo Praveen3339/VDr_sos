@@ -70,11 +70,12 @@
   position: absolute;
   top: 480px;
   left: 610px;
-  background-color: red;
+  border: 1px solid red;
+  background-color: white;
   border-radius: 100%;
   width: 40px;
   height: 40px;
-  color: white;
+  color: red;
   font-weight: 600;
   z-index: 1;
   display: flex;
@@ -84,4 +85,5 @@
 
 .stop_btn:focus {
   outline: none; /* Remove focus outline */
+  border: 1px solid red;
 }
